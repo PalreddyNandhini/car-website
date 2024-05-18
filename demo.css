@@ -1,0 +1,203 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#main{
+    background-image: url(images/56997.jpg);
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    /* position: fixed; */
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    font-size: 15px;
+    height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header nav ul li a:hover {
+    color: rgb(143, 138, 138);
+    transition: 1s;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 9px 25px;
+}
+header nav ul{   
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(54, 52, 52);
+    position: fixed;
+    width: 100%;
+}
+
+/* home section */
+#home{
+    padding:200px 0px 50px 0px;
+    text-align: center;
+}
+section #name h1{
+    padding:10px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+}
+section #name h3{
+    padding:5px;
+    color: #fff;
+    font-weight: 100;
+}
+section #name{
+    padding-bottom: 30%;
+}
+section ul li a i{
+    color:#fff;
+}
+section #links ul li, footer #links ul li{
+    display: inline-block;
+    padding: 0px 8px 0px 8px;
+}
+#services{
+    background-color: black;
+    padding:200px 0px 150px 0px;
+}
+#services #s_head{
+    padding-bottom:50px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+}
+#services #s_boxs{
+    text-align: center;
+}
+#services #s_boxs #one{
+    /* padding: 20px 30px;  */
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+}
+#services #s_boxs #h3, #p{
+    padding:20px 100px;
+    /* text-align:  center; */
+}
+#services #s_boxs #one #p{
+    line-height: 1.6;
+}
+
+/* work section */
+#work{
+    text-align: center;
+    padding:100px 0px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 100;
+}
+#work #w_head h1{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+#work #w_images{
+    padding:50px 0px 0px 0px;
+}
+#work #w_images #image{
+    display: inline-block;
+}
+#work #w_images img{
+    width: 450px;
+    /* vertical-align: bottom; */
+    animation-delay: 2s;
+}
+#work #w_images #images:hover img{
+    transition: transform 0.3s ease-in-out;
+    transition: 1s;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+/* about us section  */
+
+#about{
+    padding:100px 430px;
+}
+#about #abt{
+    text-align: center;
+    padding:40px;
+    background-color: #fff;
+}
+#about #abt h1{
+    padding:30px;
+}
+#abt p{
+    font-weight: 100;
+    padding:0px 50px 30px 50px;
+    line-height: 1.6;
+}
+/* contact section  */
+ #contact{
+    background-color: rgb(173, 166, 166);
+    padding:100px 430px;
+ }
+#contact img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact #cont{
+    padding:50px 100px;
+    background-color: #fff;
+}
+#contact #cont h1{
+    text-align: center;
+}
+#contact #details input, textarea{
+    padding: 3px 100px 2px 0px;
+    margin: 10px 0px;
+}
+#contact #details{
+    margin-left: auto;
+    margin-right: auto;
+    padding:30px 100px;
+}
+#contact button{
+    background-color: rgb(49, 48, 48);
+    color:#fff;
+    padding:10px;
+    font-size: 15px;
+    width:270px;
+    border: 0px;
+}
+ /* footer  */
+ footer #links{
+    font-size: small;
+    background-color: #545353;
+    text-align: center;
+    padding:60px;
+ }
+footer #links p{
+padding:20px;
+color: #fff;
+}
+
+/* Book online page  */
+
+#booking #home #links{
+    background-color: rgb(54, 52, 52);
+}
+#booking section #book_online{
+    padding:150px;
+    text-align: center;
+}
+#booking #book_online #div{
+    display: inline-block;
+}
+
+
+
+
+
+
